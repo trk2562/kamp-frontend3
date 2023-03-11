@@ -13,6 +13,7 @@ import { VatAddedPipe } from './pipes/vat-added.pipe';
 import { FormsModule } from '@angular/forms';
 
 import { ToastrModule } from "ngx-toastr";
+import { CartSummaryComponent } from './components/cart-summary/cart-summary.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { ToastrModule } from "ngx-toastr";
     NaviComponent,
     VatAddedPipe,
     FilterPipePipe,
+    CartSummaryComponent,
     
   ],
   imports: [
